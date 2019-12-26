@@ -1,3 +1,22 @@
 .pptImage
 {height: 300px;
 width: 400 px;}
+
+.centerMult 
+{ 
+   min-width: 200px;
+ display: grid;
+     grid-template-columns: repeat(10, minmax(10px, 1fr));
+     /* grid-template-rows: repeat(10, minmax(10px, 1fr)); */
+  /* this is where the images will be.  In othe rbranches it will be number chart*/ 
+  text-align:center;
+  background-color:palevioletred;  grid-column-start: 2;
+  grid-column-end: 4;
+  
+      
+      
+       
+      
+
+}
+ 
