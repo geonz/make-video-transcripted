@@ -11,12 +11,12 @@ width: 400 px;}
   /* this is where the images will be.  In othe rbranches it will be number chart*/ 
   text-align:center;
   background-color:palevioletred;  grid-column-start: 2;
-  grid-column-end: 4;
-  
-      
-      
-       
-      
+  grid-column-end: 4;    
 
 }
+
  
+ .item
+ {
+   border:1px;
+ }
