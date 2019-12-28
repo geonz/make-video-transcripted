@@ -15,7 +15,11 @@ width: 400 px;}
 
 }
 
- 
+ #chartContainer
+ {
+  display: grid;
+ // grid-template-columns: repeat(10,20px);
+   }
  .item
  {
    border:1px;

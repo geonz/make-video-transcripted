@@ -20,7 +20,7 @@ var minFact=1;
   multPic.innerHTML=multPicHTML;
    
 } 
-createMultImage();
+//createMultImage();
 function addBorder()
 {
 numId=0;
@@ -32,4 +32,16 @@ numId=0;
   
  }
 }
-addBorder();
+//addBorder();
+function addHeader()
+{
+  headHTML="<div id='heading'> X </div>";
+   for (let num=1;num<=maxFact; num++ )
+{
+  headHTML +='  <div class = "item"   id="d'+numId + '" >' +num + ' </div>';}
+
+
+  chartHead.innerHTML=headHTML;
+
+}
+addHeader();
