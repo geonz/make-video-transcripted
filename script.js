@@ -38,10 +38,10 @@ function addHeader()
   headHTML="<div id='heading'> X </div>";
    for (let num=1;num<=maxFact; num++ )
 {
-  headHTML +='  <div class = "item"   id="d'+numId + '" >' +num + ' </div>';}
+  headHTML +='  <div class = "item"   id="d'+num + '" >' +num + ' </div>';}
 
 
   chartHead.innerHTML=headHTML;
 
 }
-addHeader();
+//addHeader();
